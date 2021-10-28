@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 
-public class Animal : MonoBehaviour
+namespace com.test.core
 {
-    public void Live()
+    public class Animal : MonoBehaviour
     {
-        
-    }
+        public void Live()
+        {
 
-    public void Die()
-    {
-        
+        }
+
+        public void Die()
+        {
+
+        }
     }
 }
